@@ -76,7 +76,7 @@ class _HomeState extends State<Home> {
 
 _criarLinhaTexto(dynamic item) {
   return ListTile(
-    title: Text(item['description']),
+    title: Text(item['alt_description']),
     subtitle: Text("Likes : ${item['likes']}"),
   );
 }
